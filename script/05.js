@@ -17,3 +17,7 @@
 
     variable1 = variable1 + 1;
     console.log(variable1);
+
+    console.log(typeof 3);
+    console.log(typeof 'hello');
+    console.log(typeof message);
