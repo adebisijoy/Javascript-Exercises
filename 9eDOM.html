@@ -10,15 +10,15 @@
       placeholder="Name"
       class="js-name-input"
       onkeydown="
-      inputText();
+      if (event.key === 'Enter') {
+         inputText();
+      }
     "
     />
 
     <button
       onclick="
-     const inputElement = document.querySelector('.js-name-input');
-      document.querySelector('.js-name')
-        .innerHTML = `Your name is: ${inputElement.value}`;
+     inputText();
   "
     >
       Submit
