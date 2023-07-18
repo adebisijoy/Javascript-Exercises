@@ -15,6 +15,11 @@
         font-size: 30px;
         font-weight: bold;
       }
+
+      .move-icon {
+        height: 50px;
+        
+      }
     </style>
   </head>
   <body>
@@ -25,7 +30,7 @@
       playGame('rock');
   "
     >
-      Rock
+      <img class="move-icon" src="images/rock-emoji.png" alt="rock-emoji" />
     </button>
 
     <button
@@ -33,7 +38,7 @@
       playGame('paper');
   "
     >
-      Paper
+      <img src="paper-emoji.png" alt="paper-emoji" />
     </button>
 
     <button
@@ -42,7 +47,7 @@
 
     "
     >
-      Scissors
+      <img src="scissors-emoji.png" alt="scissors-emoji" />
     </button>
 
     <p class="js-result"></p>
