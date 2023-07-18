@@ -18,7 +18,11 @@
 
       .move-icon {
         height: 50px;
-        
+      }
+
+      .move-button {
+        background-color: transparent;
+        border: 1px solid white;
       }
     </style>
   </head>
@@ -28,7 +32,7 @@
     <button
       onclick="
       playGame('rock');
-  "
+  "  class="move-button"
     >
       <img class="move-icon" src="images/rock-emoji.png" alt="rock-emoji" />
     </button>
@@ -36,18 +40,18 @@
     <button
       onclick="
       playGame('paper');
-  "
+  " class="move-button"
     >
-      <img src="paper-emoji.png" alt="paper-emoji" />
+      <img class="move-icon" src="images/paper-emoji.png" alt="paper-emoji" />
     </button>
 
     <button
       onclick="
       playGame('scissors');
 
-    "
+    " class="move-button"
     >
-      <img src="scissors-emoji.png" alt="scissors-emoji" />
+      <img class="move-icon" src="images/scissors-emoji.png" alt="scissors-emoji" />
     </button>
 
     <p class="js-result"></p>
