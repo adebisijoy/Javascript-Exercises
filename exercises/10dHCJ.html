@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/10dHCJ.css">
+</head>
+<body>
+  <button class="js-toggle-button toggle-button" onclick="
+    const buttonElement = document.querySelector('.js-toggle-button');
+
+    if (!buttonElement.classList.contains('is-toggled')) {
+       buttonElement.classList.add('is-toggled')
+    } else {
+      buttonElement.classList.remove('is-toggled');
+    }
+    ">Gaming</button>
+</body>
+</html>
