@@ -7,3 +7,4 @@ function addOne(array) {
   return result;
 }
 console.log(addOne([1, 2, 3]));
+console.log(addOne([-2, -1, 0, 99]));
