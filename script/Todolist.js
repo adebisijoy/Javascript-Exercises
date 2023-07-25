@@ -17,13 +17,13 @@ for (let i = 0; i < todoList.length; i++) {
   // const dueDate = todoObject.duedate;
   const{ name, dueDate } = todoObject;
   const html = `
-  <p>
-  ${name} ${dueDate}
+  <div>${name}</div> 
+  <div>${dueDate}</div>
   <button onclick = "
     todoList.splice(${i}, 1);
     renderTodoList();
-  ">Delete</button>
-  </p>`;
+  " class="delete-todo-button">Delete</button>
+  `;
   todoListHTML += html;
 }
 
