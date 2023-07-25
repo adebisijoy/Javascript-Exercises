@@ -19,7 +19,7 @@ function renderTodoList() {
      <button onclick="
      todoList.splice(${i}, 1);
      renderTodoList();
-     ">Delete</button>
+     " class="delete-button">Delete</button>
      `;
      todoListHTML += html;
   }
